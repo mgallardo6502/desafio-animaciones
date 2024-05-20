@@ -12,6 +12,7 @@
 nav {
   display: flex;
   flex-direction: row;
+  align-items: center;
   height: 6em;
   border: 1px solid black;
   background-color: #a4a08e;
@@ -21,4 +22,10 @@ nav img {
   max-height: 100%;
 }
 
-nav
+nav p {
+  color: white;
+  font-size: 2em;
+  padding-left: 1em;
+  text-shadow: 2px 2px 2px #000, -2px 2px 2px #000, -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
